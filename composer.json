@@ -1,0 +1,19 @@
+{
+  "name": "rdtest/cleanup",
+  "description": "Custom Console Commands for Cleanup",
+  "require": {
+        "php": ">=8.1",
+        "magento/framework": ">=102"
+    },
+    "version": "1.0.0",
+    "license": "proprietary",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RdTest\\Cleanup\\": ""
+        }
+    }
+}
